@@ -1,0 +1,47 @@
+body {
+  font-family: "Noto Serif", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+  /* width: 120px; */
+  /* height: 850px; */
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  /* justify-content: space-around; */
+}
+.text-section {
+  /* width: 800px; */
+  margin-left: 90px;
+}
+.text-section h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+.text-section p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+.text-section button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  margin-bottom: 80px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.img-section img {
+  width: 600px;
+  margin-bottom: 0;
+  margin-left: 60px;
+  margin-top: 60px;
+  /* margin-right: 100px; */
+}
+/* end of header part */
