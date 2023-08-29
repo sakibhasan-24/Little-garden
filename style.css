@@ -45,3 +45,64 @@ header {
   /* margin-right: 100px; */
 }
 /* end of header part */
+/* start of main */
+
+main {
+  margin: 100px 120px;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.flowers {
+  display: flex;
+}
+.flower {
+  margin-right: 40px;
+  width: 464px;
+  height: 438px;
+  border-radius: 300px 300px 0px 0px;
+  /* background: rgba(5, 151, 160, 0.15); */
+}
+
+.one {
+  background: rgba(167, 33, 98, 0.15);
+}
+.two {
+  background: rgba(5, 151, 160, 0.15);
+}
+.three {
+  background: rgba(71, 125, 17, 0.15);
+}
+.flower-img img {
+  width: 240px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.flower-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flower-text p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+}
+/* end of main */
