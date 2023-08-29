@@ -251,7 +251,7 @@ main {
 }
 
 .subscribe-section {
-  background-image: url("/Images/Rectangle\ 9.png");
+  background-image: url("./Images/Rectangle\ 9.png");
   background-repeat: no-repeat;
   width: 1000px;
 
