@@ -105,4 +105,59 @@ main {
   text-decoration-line: underline;
   text-underline-offset: 6px;
 }
+
+.event-service {
+  margin-top: 50px;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.service {
+  cursor: pointer;
+  padding: 10px 5px;
+  /* background-color: #e8b4bf; */
+  border-radius: 10px;
+  box-shadow: 5px 10px 3px #f1ececec;
+}
+
+.service:hover {
+  box-shadow: 10px 30px 10px #f1ececec;
+}
+
+.service img {
+  padding: 0 2px;
+  /* margin: 10px auto; */
+  border-radius: 10px;
+  height: 250px;
+  width: 100%;
+  margin-right: 40px;
+  display: block;
+}
+.service-text {
+  padding: 5px 10px;
+}
+.service-text h1 {
+  text-align: center;
+}
+.service-text p {
+  font-size: 18px;
+  color: #636363;
+}
+.service button {
+  display: block;
+  text-align: center;
+  margin: 3px auto;
+  color: aliceblue;
+  background-color: #e55473;
+  border: 0;
+  padding: 5px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.service button:hover {
+  background-color: #fa1446;
+  letter-spacing: 2px;
+}
 /* end of main */
