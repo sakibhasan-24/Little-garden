@@ -247,3 +247,47 @@ main {
   width: 25%;
   height: 300px;
 }
+
+.subscribe-section {
+  background-image: url("/Images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  width: 1000px;
+
+  border-radius: 10px;
+  text-align: center;
+}
+.subscribe {
+  padding: 60px 100px;
+  text-align: center;
+}
+.text {
+  margin-top: 40px;
+}
+.text p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+.subscribe-section form {
+  width: 100%;
+  margin-top: 50px;
+}
+
+input {
+  margin-left: 20px;
+}
+input[type="email"] {
+  width: 60%;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 8px;
+}
+input[type="button"] {
+  border-radius: 8px;
+  background: #e55473;
+  color: #ffdfff;
+  border: 0;
+  padding: 10px 12px;
+  cursor: pointer;
+}
