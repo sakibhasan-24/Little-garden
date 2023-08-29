@@ -160,4 +160,28 @@ main {
   background-color: #fa1446;
   letter-spacing: 2px;
 }
+
+.support-session {
+  margin-top: 150px;
+  background-color: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.support {
+  margin-top: 30px;
+}
+
+.support-img img {
+  width: 80px;
+  margin: 5px 80px;
+}
+.support-text {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35px;
+}
 /* end of main */
